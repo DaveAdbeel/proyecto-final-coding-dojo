@@ -1,0 +1,91 @@
+Pagina/App para buscar tecnicos especialicados en distintas categorias
+
+
+
+Principal( Inicio ) 
+
+Categorias ( Busqueda de Tecnicos )
+
+Filtros para categoria (e lectronica )
+
+- Por defecto (Aleatorio)
+- Por cercania
+- Por valoraciones ( de menor a mayor y viceversa ) 
+- Por cantidad de clientes
+
+
+Cuenta
+
+Agregar estados para los tecnico 
+
+--disponible
+--ocupado
+--descansando
+
+Los datos del tecnico
+
+--contador de clientes
+--valoraciones
+--categoria
+--ranking a nivel comuna y a pais
+--ubicacion ( obligatoria)
+--Titulos y experiencia (opcional)
+
+
+
+
+Los datos del cliente
+
+--valoraciones
+--ubicacion ( obligatoria )
+--Nombre de usuario
+
+
+
+
+
+//Metodos para regristarte con tecnico
+
+--RUT (Obliatorio para la verificacion de edad)
+--Cedula de identidad por detras y por delante
+--contraseña ( filtros de minimo 12 caracteres tiene que incluir mayusculas) (caracteres especiales opcional)
+
+
+//Metodos para iniciar sesion con tecnico
+
+--RUT
+--contraseña ( filtros de minimo 12 caracteres tiene que incluir mayusculas) (caracteres especiales opcional)
+
+
+//Despues de crear la cuenta
+
+--NUMERO DE TELEFONO (obligatorio)
+--CORREO GOOGLE (opcional)
+--NOMBRE DE USUARIO (obligatorio + flitros para nombres)
+--DESCRIPCION ( obligatoria )
+
+
+
+
+
+
+
+//Metodos para registrarte como usuario
+
+--Correo Electronico ( Obliatorio + verificacion)
+--Google( opcional + verificacion )
+--Contraseña ( filtros de minimo 12 caracteres tiene que incluir mayusculas) (caracteres especiales opcional)
+
+
+//Despues de crear la cuenta
+
+--Ubicacion
+--Nombre de usuario(obligatorio + flitros para nombres)
+--Numero de telefono (opcional)
+
+//Metodos para inciar sesion como usuario
+
+--Google
+--Numero de telefono
+--Nombre de usuario
+--contraseña ( filtros de minimo 12 caracteres ) 
